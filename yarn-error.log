@@ -1,0 +1,86 @@
+Arguments: 
+  /home/bruno/.nvm/versions/node/v19.8.1/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js
+
+PATH: 
+  /home/bruno/.nvm/versions/node/v19.8.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Zulu/zulu-21/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenJDK/openjdk-11.0.15_10/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Python27:/mnt/c/Python27/Tools/Scripts:/mnt/c/wamp/bin/php/php7.4.26:/mnt/c/composer:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Bitvise SSH Client:/mnt/c/Program Files/nodejs/:/mnt/c/Users/bruno/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bruno/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bruno/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/bruno/AppData/Local/Yarn/bin:/mnt/c/Users/bruno/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/bruno/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  19.8.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/bruno/.cache/yarn/v6/npm-es-abstract-1.23.3-8f0c5a35cd215312573c5a27c87dfd6c881a0aa0-integrity/node_modules/es-abstract/.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:310:30)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "prolinephotoapp",
+    "main": "expo-router/entry",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "expo start",
+      "reset-project": "node ./scripts/reset-project.js",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "test": "jest --watchAll",
+      "lint": "expo lint"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^14.0.2",
+      "@hookform/resolvers": "^3.9.0",
+      "@react-navigation/native": "^6.0.2",
+      "axios": "^1.7.3",
+      "expo": "~51.0.25",
+      "expo-camera": "~15.0.14",
+      "expo-constants": "~16.0.2",
+      "expo-font": "~12.0.9",
+      "expo-linking": "~6.3.1",
+      "expo-location": "~17.0.1",
+      "expo-router": "~3.5.21",
+      "expo-splash-screen": "~0.27.5",
+      "expo-status-bar": "~1.12.1",
+      "expo-system-ui": "~3.0.7",
+      "expo-web-browser": "~13.0.3",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-hook-form": "^7.52.2",
+      "react-native": "0.74.5",
+      "react-native-gesture-handler": "~2.16.1",
+      "react-native-reanimated": "~3.10.1",
+      "react-native-safe-area-context": "4.10.5",
+      "react-native-screens": "3.31.1",
+      "react-native-web": "~0.19.10",
+      "zod": "^3.23.8",
+      "expo-secure-store": "~13.0.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/jest": "^29.5.12",
+      "@types/react": "~18.2.45",
+      "@types/react-test-renderer": "^18.0.7",
+      "jest": "^29.2.1",
+      "jest-expo": "~51.0.3",
+      "react-test-renderer": "18.2.0",
+      "typescript": "~5.3.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
