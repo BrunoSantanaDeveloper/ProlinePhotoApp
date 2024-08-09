@@ -54,3 +54,7 @@ Este projeto é um App que consome uma api de gerenciamento de fotos e coordenad
    ```
 
 ## **Considerações Finais**
+
+Este projeto foi criado com o intuito de fornecer uma base sólida para o desenvolvimento de apicativo movel em react, integrando com uma API.
+
+---
